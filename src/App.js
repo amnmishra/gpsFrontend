@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import TopMenu from "./components/header/TopMenu";
+import MainMenu from "./components/header/MainMenu";
+import HomePageSlider from "./components/slider/HomePageSlider";
+import HomePage from "./components/pages/HomePage";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HomePage 
+          companyName="Gravity Drive" 
+          imageUrl="images/logo.png"
+      />
+
+
+
+
+        
+        
+        
+
+    </>
   );
 }
 
